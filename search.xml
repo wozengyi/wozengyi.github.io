@@ -4,6 +4,8 @@
     <title>Welcome to my code world!</title>
     <url>/2021/01/20/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<a id="more"></a>
+
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
@@ -12,19 +14,23 @@
 <p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
+<!-- more-->]]></content>
   </entry>
   <entry>
     <title>第一篇博客</title>
     <url>/2021/01/22/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<h1 id="测试博客"><a href="#测试博客" class="headerlink" title="测试博客"></a>测试博客</h1><h2 id="第一篇博客"><a href="#第一篇博客" class="headerlink" title="第一篇博客"></a>第一篇博客</h2><h3 id="测试，将csdn博文转出"><a href="#测试，将csdn博文转出" class="headerlink" title="测试，将csdn博文转出"></a>测试，将csdn博文转出</h3><ul>
+    <content><![CDATA[<a id="more"></a>
+
+<h1 id="测试博客"><a href="#测试博客" class="headerlink" title="测试博客"></a>测试博客</h1><h2 id="第一篇博客"><a href="#第一篇博客" class="headerlink" title="第一篇博客"></a>第一篇博客</h2><h3 id="测试，将csdn博文转出"><a href="#测试，将csdn博文转出" class="headerlink" title="测试，将csdn博文转出"></a>测试，将csdn博文转出</h3><ul>
 <li>列表<br>  a 列表<br>  b 列表</li>
 </ul>
 <p><a href="http://baidu.com/">百度</a></p>
 <p><img src="https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3353888311,1235501543&fm=26&gp=0.jpg" alt="百度"></p>
 <p><em>斜体</em><br><strong>加粗</strong></p>
 <p><code>&lt;html&gt;</code></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hello </span><br><span class="line">c</span><br><span class="line">python</span><br></pre></td></tr></table></figure>]]></content>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hello </span><br><span class="line">c</span><br><span class="line">python</span><br></pre></td></tr></table></figure>
+<!-- more-->
+]]></content>
       <categories>
         <category>前端</category>
       </categories>
