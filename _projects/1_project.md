@@ -1,13 +1,23 @@
 ---
 layout: post
-title: "National Key R&D Program: Intelligent Early Warning System for Biological Domain Big Data"
-date: 2023-03-01
+title: "Duxiaoman Finance: LLM Post-Training and Domain Alignment"
+date: 2025-04-01
 inline: false
 related_posts: false
+categories: [industry, llm]
+img: 1.jpg
 ---
 
-**Role:** Core Algorithm Developer | **Duration:** Mar 2023 – Dec 2024
+**Role:** Project Lead | **Duration:** Apr 2025 – Aug 2025
 
-Built large-scale biological knowledge graphs and integrated graph anomaly detection for automatic identification and assessment of biological safety risks. Designed explainable risk scoring and attribution modules to support early warning and decision-making.
+Led the development of SFT/RLHF data and strategy design for financial domain scenarios, including credit reporting and risk control applications.
 
-**Keywords:** Knowledge Graph, Graph Anomaly Detection, Explainable AI
+### Key Contributions
+
+- Built quality control and preference alignment pipelines to improve professional Q&A consistency and reliability
+- Developed advanced RAG+Agent solutions for explainable reasoning in long-document compliance review
+- Designed domain-specific evaluation benchmarks for financial LLM capabilities
+
+**Keywords:** LLM Post-Training, RLHF, RAG, Agent, Financial AI
+
+**Technologies:** PyTorch, Transformers, LangChain, vLLM
