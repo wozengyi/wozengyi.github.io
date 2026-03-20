@@ -8,7 +8,7 @@ permalink: /news/
 
 - **Dec 2025**: One paper accepted to **AAAI 2026** (Oral)!
 - **May 2025**: One paper accepted to **IJCAI 2025**!
-- **Feb 2025**: One paper accepted to **KDD 2025** (Oral)!
+- **May 2025**: One paper accepted to **KDD 2025** (Oral)!
 
 ## 2024
 
