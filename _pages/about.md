@@ -42,5 +42,6 @@ I have published papers at top-tier conferences such as KDD, WWW, IJCAI, and AAA
 
 ## Academic Services
 
-- Reviewer for KDD, AAAI, IJCAI,TKDD
+- Reviewer for KDD, AAAI, IJCAI, TKDD
 - Program Committee Member for WWW
+
