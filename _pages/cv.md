@@ -9,12 +9,24 @@ toc:
   sidebar: left
 ---
 
+## Experience
+
+**Baidu Inc.**, Beijing, China
+- Algorithm Engineer, Multimodal LLM Post-Training
+- Jul 2025 – Present
+- Working on Supervised Fine-Tuning (SFT), Reinforcement Learning (RL), and Online Preference Distillation (OPD) for multimodal large language models
+
+**Duxiaoman Finance** (Apr 2025 – Aug 2025)
+- Project Lead, LLM Post-Training and Domain Alignment
+- Developed SFT/RLHF pipelines for financial domain LLMs
+
 ## Education
 
 **Tianjin University**, Tianjin, China
 - M.S. in Computer Science and Technology, College of Intelligence and Computing
-- Sep 2022 – Present (Expected Jun 2025)
-- Advisor: Prof. Wei Wang, Prof. Mingyu Shao
+- Sep 2022 – Jun 2025
+- Advisor: Prof. Wenjun Wang, Prof. Minglai Shao
+- Collaborators: Prof. Lu Lin (Penn State), Prof. Ruijie Wang (UIUC)
 - Research Focus: Graph Machine Learning, Large Language Models
 
 **Zhengzhou University**, Zhengzhou, China
@@ -32,6 +44,7 @@ toc:
 See [Publications](/publications/) page for full list.
 
 **Selected Publications:**
+- **AAAI 2026** (Oral): LLMTM: Benchmarking and Optimizing LLMs for Temporal Motif Analysis
 - **KDD 2025** (Oral): Local Homophily-Aware Graph Neural Network for Scalable Graph Anomaly Detection
 - **WWW 2024** (Oral): Graph Contrastive Learning via Interventional View Generation
 - **IJCAI 2025**: Leveraging Personalized PageRank for Heterophily Mitigation in GNNs
@@ -48,12 +61,6 @@ See [Publications](/publications/) page for full list.
 
 - **Reviewer**: NeurIPS, ICML, ICLR, KDD, AAAI, IJCAI
 - **Program Committee**: DASFAA 2025
-
-## Industry Experience
-
-**Duxiaoman Finance** (Apr 2025 – Aug 2025)
-- Project Lead, LLM Post-Training and Domain Alignment
-- Developed SFT/RLHF pipelines for financial domain LLMs
 
 ## Skills
 

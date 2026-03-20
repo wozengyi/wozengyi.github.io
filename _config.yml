@@ -8,7 +8,7 @@ middle_name:
 last_name: Wo
 email: wozengyi1999@tju.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Zengyi Wo is a Master's student at Tianjin University. Research interests include Graph Machine Learning, Large Language Models, and Multimodal AI.
+  Zengyi Wo is an Algorithm Engineer at Baidu, focusing on multimodal LLM post-training (SFT, RL, OPD). Research interests include Graph ML, LLMs, and Multimodal AI.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
