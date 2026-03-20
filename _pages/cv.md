@@ -52,8 +52,9 @@ See [Publications](/publications/) page for full list.
 
 ## Honors & Awards
 
-- KDD 2025 Oral Presentation (Acceptance Rate ~18.4%)
-- WWW 2024 Oral Presentation (Acceptance Rate ~20.2%)
+- AAAI 2026 Oral Presentation
+- KDD 2025 Oral Presentation
+- WWW 2024 Oral Presentation
 - National Scholarship for Graduate Students, 2023
 - Outstanding Graduate Student Award, Tianjin University, 2024
 
