@@ -36,8 +36,8 @@ I have published papers at top-tier conferences such as KDD, WWW, IJCAI, and DAS
 ## Honors & Awards
 
 - **AAAI 2026 Oral Presentation**
-- **KDD 2025 Oral Presentation** (Acceptance Rate ~18.4%)
-- **WWW 2024 Oral Presentation** (Acceptance Rate ~20.2%)
+- **KDD 2025 Oral Presentation**
+- **WWW 2024 Oral Presentation**
 - National Scholarship for Graduate Students (2023)
 - Outstanding Graduate Student Award, Tianjin University (2024)
 
