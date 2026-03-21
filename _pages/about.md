@@ -13,10 +13,15 @@ profile:
     <p>Baidu Inc.</p>
     <p>Beijing, China</p>
 
-news: true # includes a list of news items
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
+
+- **Dec 2025**: One paper accepted to **AAAI 2026** (Oral)!
+- **May 2025**: One paper accepted to **IJCAI 2025**!
+- **Feb 2025**: One paper accepted to **KDD 2025** (Oral)!
+- **Jan 2024**: One paper accepted to **WWW 2024** (Oral)!
 
 I am an Algorithm Engineer at [Baidu](https://www.baidu.com), working on multimodal large language model post-training (2025 – Present). Previously, I received my Master's degree from [Tianjin University](https://www.tju.edu.cn), College of Intelligence and Computing (2022 – 2025). I received my Bachelor's degree in Computer Science and Technology from [Zhengzhou University](https://www.zzu.edu.cn) (2018 – 2022).
 <!-- , advised by [Prof. Wenjun Wang](https://cic.tju.edu.cn/faculty/wangwenjun) and [Prof. Minglai Shao](https://scholar.google.com/citations?user=xxxxx) -->
