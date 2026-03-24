@@ -13,7 +13,7 @@ profile:
     <p>Baidu Inc.</p>
     <p>Beijing, China</p>
 
-news: false # includes a list of news items
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
@@ -31,13 +31,6 @@ My current research focuses on **multimodal large language model post-training**
 - **Data Mining**: Heterophily-aware GNNs, Cross-modal Alignment, Knowledge Graph-enhanced RAG
 
 I have published papers at top-tier conferences such as KDD, WWW, IJCAI, and AAAI. See my [publications](/publications/) page for more details.
-
-## News
-
-- **Dec 2025**: One paper accepted to **AAAI 2026** (Oral)!
-- **May 2025**: One paper accepted to **IJCAI 2025**!
-- **Feb 2025**: One paper accepted to **KDD 2025** (Oral)!
-- **Jan 2024**: One paper accepted to **WWW 2024** (Oral)!
 
 ## Honors & Awards
 
