@@ -16,6 +16,17 @@ profile:
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
+honors:
+  - "<strong>AAAI 2026 Oral Presentation</strong>"
+  - "<strong>KDD 2025 Oral Presentation</strong>"
+  - "<strong>WWW 2024 Oral Presentation</strong>"
+  - "National Scholarship for Graduate Students (2021)"
+  - "Outstanding Graduate Student Award, Tianjin University (2025)"
+
+academic_services:
+  - "Reviewer for KDD, AAAI, IJCAI, TKDD"
+  - "Program Committee Member for WWW"
 ---
 
 I am an Algorithm Engineer at [Baidu](https://www.baidu.com), working on multimodal large language model post-training (2025 – Present). Previously, I received my Master's degree from [Tianjin University](https://www.tju.edu.cn), College of Intelligence and Computing (2022 – 2025). I received my Bachelor's degree in Computer Science and Technology from [Zhengzhou University](https://www.zzu.edu.cn) (2018 – 2022).
@@ -31,17 +42,3 @@ My current research focuses on **multimodal large language model post-training**
 - **Data Mining**: Heterophily-aware GNNs, Cross-modal Alignment, Knowledge Graph-enhanced RAG
 
 I have published papers at top-tier conferences such as KDD, WWW, IJCAI, and AAAI. See my [publications](/publications/) page for more details.
-
-## Honors & Awards
-
-- **AAAI 2026 Oral Presentation**
-- **KDD 2025 Oral Presentation**
-- **WWW 2024 Oral Presentation**
-- National Scholarship for Graduate Students (2021)
-- Outstanding Graduate Student Award, Tianjin University (2025)
-
-## Academic Services
-
-- Reviewer for KDD, AAAI, IJCAI, TKDD
-- Program Committee Member for WWW
-

@@ -64,6 +64,26 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Honors & Awards -->
+    {% if page.honors %}
+      <h2>Honors & Awards</h2>
+      <ul>
+        {% for item in page.honors %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    <!-- Academic Services -->
+    {% if page.academic_services %}
+      <h2>Academic Services</h2>
+      <ul>
+        {% for item in page.academic_services %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
