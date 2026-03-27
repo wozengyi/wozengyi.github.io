@@ -29,9 +29,16 @@ academic_services:
   - "Program Committee Member for WWW"
 ---
 
-## 👋 Hello
+## 👋 About Me
 
-I'm an Algorithm Engineer at **[Baidu](https://www.baidu.com)**, where I work on **multimodal large language model post-training**. My research interests span LLM alignment, reinforcement learning, and multimodal learning.
+I'm an Algorithm Engineer at **[Baidu](https://www.baidu.com)**, focusing on **multimodal large language model post-training**. I'm passionate about building AI systems that can understand and reason across multiple modalities.
+
+## 💼 Experience
+
+| Role | Organization | Period |
+|:-----|:-------------|:-------|
+| Algorithm Engineer | [Baidu](https://www.baidu.com) | 2025 – Present |
+| Research Intern | Duxiaoman Finance | 2024 |
 
 ## 🎓 Education
 
@@ -42,21 +49,21 @@ I'm an Algorithm Engineer at **[Baidu](https://www.baidu.com)**, where I work on
 
 ## 🔬 Research Interests
 
-| Area | Topics |
-|:-----|:-------|
-| **Multimodal Post-Training** | SFT, RLHF, RLVR, DPO |
-| **Graph Machine Learning** | GNNs, Contrastive Learning, Anomaly Detection |
-| **Data Mining** | Heterophily-aware GNNs, Cross-modal Alignment, KG-enhanced RAG |
+My research centers on making large language models better aligned with human intent:
+
+- **Multimodal Post-Training**: SFT, RLHF, RLVR, DPO, Reasoning
+- **Graph Machine Learning**: GNNs, Contrastive Learning, Anomaly Detection
+- **Data Mining**: Heterophily-aware GNNs, Cross-modal Alignment, KG-enhanced RAG
 
 ## 🤝 Collaborators
 
-I have been fortunate to work with amazing researchers:
+I've been fortunate to collaborate with:
 
-- [Prof. Lu Lin](https://louise-lulin.github.io/) @ Penn State
-- [Prof. Ruijie Wang](https://wjerry5.github.io/) @ UIUC
-
-Previously, I was a research intern at **Duxiaoman Finance**, working on LLM post-training and domain alignment.
+| Name | Affiliation |
+|:-----|:------------|
+| [Prof. Lu Lin](https://louise-lulin.github.io/) | Penn State University |
+| [Prof. Ruijie Wang](https://wjerry5.github.io/) | University of Illinois Urbana-Champaign |
 
 ---
 
-📜 I have published at **KDD**, **WWW**, **IJCAI**, **AAAI**. See [publications](/publications/) for details.
+📜 Publications at **KDD**, **WWW**, **IJCAI**, **AAAI** → [View All](/publications/)
