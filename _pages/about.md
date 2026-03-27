@@ -9,9 +9,9 @@ profile:
   image: wzy1.jpg
   image_circular: false
   more_info: >
-    <p>Algorithm Engineer</p>
-    <p>Baidu Inc.</p>
-    <p>Beijing, China</p>
+    <p>📍 Beijing, China</p>
+    <p>💼 Algorithm Engineer @ Baidu</p>
+    <p>🎓 M.S. @ Tianjin University</p>
 
 news: true
 selected_papers: true
@@ -29,41 +29,22 @@ academic_services:
   - "Program Committee Member for WWW"
 ---
 
-## 👋 About Me
+I am currently an Algorithm Engineer at **[Baidu](https://www.baidu.com)**, where my work centers on **multimodal large language model post-training**. My core mission is to build intelligent systems capable of robust mathematical and logical reasoning across modalities, heavily leveraging alignment techniques such as SFT, RLHF, RLVR, and DPO dynamics.
 
-I'm an Algorithm Engineer at **[Baidu](https://www.baidu.com)**, focusing on **multimodal large language model post-training**. I'm passionate about building AI systems that can understand and reason across multiple modalities.
-
-## 💼 Experience
-
-| Role | Organization | Period |
-|:-----|:-------------|:-------|
-| Algorithm Engineer | [Baidu](https://www.baidu.com) | 2025 – Present |
-| Research Intern | Duxiaoman Finance | 2024 |
-
-## 🎓 Education
-
-| Degree | Institution | Period |
-|:-------|:------------|:-------|
-| M.S. in Computer Science | [Tianjin University](https://www.tju.edu.cn) | 2022 – 2025 |
-| B.S. in Computer Science | [Zhengzhou University](https://www.zzu.edu.cn) | 2018 – 2022 |
-
-## 🔬 Research Interests
-
-My research centers on making large language models better aligned with human intent:
-
-- **Multimodal Post-Training**: SFT, RLHF, RLVR, DPO, Reasoning
-- **Graph Machine Learning**: GNNs, Contrastive Learning, Anomaly Detection
-- **Data Mining**: Heterophily-aware GNNs, Cross-modal Alignment, KG-enhanced RAG
-
-## 🤝 Collaborators
-
-I've been fortunate to collaborate with:
-
-| Name | Affiliation |
-|:-----|:------------|
-| [Prof. Lu Lin](https://louise-lulin.github.io/) | Penn State University |
-| [Prof. Ruijie Wang](https://wjerry5.github.io/) | University of Illinois Urbana-Champaign |
+Prior to joining Baidu, I received my M.S. in Computer Science from **[Tianjin University](https://www.tju.edu.cn)** (2025) and my B.S. from **[Zhengzhou University](https://www.zzu.edu.cn)** (2022). During my studies, I also spent time exploring cutting-edge applications as a Research Intern at **Duxiaoman Finance** (2024).
 
 ---
 
-📜 Publications at **KDD**, **WWW**, **IJCAI**, **AAAI** → [View All](/publications/)
+**🔥 Research Focus**
+* **LLM & Multimodal Post-Training:** Advancing model alignment paradigms (RLVR/RLHF), fine-grained DPO optimization, and complex reasoning frameworks.
+* **Graph Machine Learning:** Graph Neural Networks (GNNs), Contrastive Learning, and Heterophily/Anomaly Detection.
+* **Data Mining:** Cross-modal alignment and Knowledge Graph-enhanced RAG architectures.
+
+**🤝 Academic Community & Collaborations**
+I am deeply grateful to collaborate with outstanding researchers, including [Prof. Lu Lin](https://louise-lulin.github.io/) (Penn State) and [Prof. Ruijie Wang](https://wjerry5.github.io/) (UIUC). I also actively serve the academic community as a Reviewer for **KDD, AAAI, IJCAI, TKDD**, and as a Program Committee Member for **WWW**.
+
+<br>
+<div align="center">
+  <i>📜 Publications at <b>KDD</b>, <b>WWW</b>, <b>IJCAI</b>, <b>AAAI</b> (including multiple Oral presentations) <br> 
+  <a href="/publications/"><b>→ View All Publications</b></a></i>
+</div>
