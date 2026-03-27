@@ -7,7 +7,7 @@ subtitle: <a href='https://www.baidu.com'>Baidu</a>.Algorithm Engineer.
 profile:
   align: right
   image: wzy.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   more_info: >
     <p>Algorithm Engineer</p>
     <p>Baidu Inc.</p>
