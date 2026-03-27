@@ -6,7 +6,7 @@ subtitle: <a href='https://www.baidu.com'>Baidu</a> · Algorithm Engineer
 
 profile:
   align: right
-  image: wzy.jpg
+  image: wzy1.jpg
   image_circular: false
   more_info: >
     <p>Algorithm Engineer</p>
@@ -29,20 +29,34 @@ academic_services:
   - "Program Committee Member for WWW"
 ---
 
-I am an Algorithm Engineer at [Baidu](https://www.baidu.com), working on **multimodal large language model post-training** (2025 – Present).
+## 👋 Hello
 
-Previously, I received my Master's degree from [Tianjin University](https://www.tju.edu.cn), College of Intelligence and Computing (2022 – 2025), and my Bachelor's degree in Computer Science from [Zhengzhou University](https://www.zzu.edu.cn) (2018 – 2022).
+I'm an Algorithm Engineer at **[Baidu](https://www.baidu.com)**, where I work on **multimodal large language model post-training**. My research interests span LLM alignment, reinforcement learning, and multimodal learning.
 
-I have been fortunate to receive guidance from [Prof. Lu Lin](https://louise-lulin.github.io/) (Penn State) and [Prof. Ruijie Wang](https://wjerry5.github.io/) (UIUC). I also completed a research internship at Duxiaoman Finance, focusing on LLM post-training and domain alignment.
+## 🎓 Education
+
+| Degree | Institution | Period |
+|:-------|:------------|:-------|
+| M.S. in Computer Science | [Tianjin University](https://www.tju.edu.cn) | 2022 – 2025 |
+| B.S. in Computer Science | [Zhengzhou University](https://www.zzu.edu.cn) | 2018 – 2022 |
 
 ## 🔬 Research Interests
 
-My research centers on **multimodal large language model post-training**, with broader interests in data mining and graph learning:
-
 | Area | Topics |
 |:-----|:-------|
-| **Multimodal Post-Training** | Supervised Fine-Tuning (SFT), RLHF, Online Preference Distillation |
-| **Graph Machine Learning** | Graph Neural Networks, Contrastive Learning, Anomaly Detection |
+| **Multimodal Post-Training** | SFT, RLHF, RLVR, DPO |
+| **Graph Machine Learning** | GNNs, Contrastive Learning, Anomaly Detection |
 | **Data Mining** | Heterophily-aware GNNs, Cross-modal Alignment, KG-enhanced RAG |
 
-I have published papers at top-tier conferences including **KDD**, **WWW**, **IJCAI**, and **AAAI**. See my [publications](/publications/) page for details.
+## 🤝 Collaborators
+
+I have been fortunate to work with amazing researchers:
+
+- [Prof. Lu Lin](https://louise-lulin.github.io/) @ Penn State
+- [Prof. Ruijie Wang](https://wjerry5.github.io/) @ UIUC
+
+Previously, I was a research intern at **Duxiaoman Finance**, working on LLM post-training and domain alignment.
+
+---
+
+📜 I have published at **KDD**, **WWW**, **IJCAI**, **AAAI**. See [publications](/publications/) for details.
