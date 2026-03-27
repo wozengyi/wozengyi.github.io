@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.tju.edu.cn'>Tianjin University</a>. College of Intelligence and Computing.
+subtitle: <a href='https://www.baidu.com'>Baidu</a>.Algorithm Engineer.
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: wzy.jpg
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>Algorithm Engineer</p>
     <p>Baidu Inc.</p>
