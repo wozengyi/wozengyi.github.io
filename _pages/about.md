@@ -40,8 +40,8 @@ Prior to joining Baidu, I received my M.S. in Computer Science from **[Tianjin U
 * **Graph Machine Learning:** Graph Neural Networks (GNNs), Contrastive Learning, and Heterophily/Anomaly Detection.
 * **Data Mining:** Cross-modal alignment and Knowledge Graph-enhanced RAG architectures.
 
-**🤝 Academic Community & Collaborations**
-I am deeply grateful to collaborate with outstanding researchers, including [Prof. Lu Lin](https://louise-lulin.github.io/) (Penn State) and [Prof. Ruijie Wang](https://wjerry5.github.io/) (UIUC). I also actively serve the academic community as a Reviewer for **KDD, AAAI, IJCAI, TKDD**, and as a Program Committee Member for **WWW**.
+**🤝 Collaborators**
+I am deeply grateful to collaborate with outstanding researchers, including [Prof. Lu Lin](https://louise-lulin.github.io/) (Penn State) and [Prof. Ruijie Wang](https://wjerry5.github.io/) (UIUC).
 
 <br>
 <div align="center">
