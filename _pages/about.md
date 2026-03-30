@@ -6,7 +6,7 @@ subtitle: <a href='https://www.baidu.com'>Baidu</a> · Algorithm Engineer
 
 profile:
   align: right
-  image: wzy1.jpg
+  image: wzy.jpg
   image_circular: false
   more_info: >
     <p>📍 Beijing, China</p>
