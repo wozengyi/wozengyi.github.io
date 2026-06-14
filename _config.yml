@@ -8,10 +8,10 @@ middle_name:
 last_name: Wo
 email: wozengyi1999@tju.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Zengyi Wo is an Algorithm Engineer at Baidu, focusing on multimodal LLM post-training (SFT, RL, OPD). Research interests include Graph ML, LLMs, and Multimodal AI.
+  Zengyi Wo is an incoming Ph.D. student at Nanjing University PRLab, focusing on embodied intelligence, world models, and multimodal foundation models. His previous work includes multimodal LLM post-training, graph machine learning, and data mining.
 footer_text: >
-  Multimodal LLMs · Graph Machine Learning · Data Mining.
-keywords: Graph Neural Networks, Graph Machine Learning, Large Language Models, LLM, Multimodal AI, Contrastive Learning, Anomaly Detection, Deep Learning, Machine Learning
+  Embodied Intelligence · World Models · Multimodal Foundation Models.
+keywords: Embodied Intelligence, World Models, Multimodal Foundation Models, Large Language Models, LLM, Multimodal AI, Agentic AI, Robotics, Planning, Graph Machine Learning, Deep Learning, Machine Learning
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: W # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -131,7 +131,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: Zengyi Wo's Blog # blog_name will be displayed in your blog page
-blog_description: Thoughts on Graph ML, LLMs, and AI Research
+blog_description: Thoughts on Embodied AI, World Models, LLMs, and AI Research
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 

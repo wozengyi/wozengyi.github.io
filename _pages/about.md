@@ -2,16 +2,16 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Algorithm Engineer, <a href='https://www.baidu.com'>Baidu</a> · Multimodal LLM Post-training · Graph Machine Learning
+subtitle: Incoming Ph.D. Student, <a href='https://www.nju.edu.cn/'>Nanjing University</a> · <a href='https://prlab-nju.com/'>PRLab</a> · Embodied Intelligence & World Models
 
 profile:
   align: right
   image: wzy.jpg
   image_circular: false
   more_info: >
-    <p><span>Location</span> Beijing, China</p>
-    <p><span>Current</span> Algorithm Engineer, Baidu</p>
-    <p><span>Education</span> M.S., Tianjin University</p>
+    <p><span>Location</span> Nanjing / Beijing, China</p>
+    <p><span>Next</span> Ph.D., Nanjing University PRLab</p>
+    <p><span>Experience</span> Algorithm Engineer, Baidu</p>
 
 news: true
 selected_papers: true
@@ -31,27 +31,29 @@ academic_services:
 
 ## Biography
 
-I am an Algorithm Engineer at **[Baidu](https://www.baidu.com)**, where I work on **multimodal large language model post-training**. My current interests center on building aligned systems that can perform robust mathematical and logical reasoning across text and visual modalities, with an emphasis on SFT, RLHF, RLVR, and OPD.
+I am an incoming Ph.D. student at **[Nanjing University](https://www.nju.edu.cn/)**, joining the **[Pattern Recognition Laboratory (PRLab)](https://prlab-nju.com/)**. I will be advised by **[Prof. Chenyang Si](https://chenyangsi.top/)** and **[Prof. Liang Wang](https://people.ucas.ac.cn/~wangliang)**.
 
-Before joining Baidu, I received my M.S. in Computer Science from **[Tianjin University](https://www.tju.edu.cn)** in 2025 and my B.S. from **[Zhengzhou University](https://www.zzu.edu.cn)** in 2022. I was also a Research Intern at **Duxiaoman Finance** in 2025, working on applied intelligent systems.
+My research is moving toward **embodied intelligence** and **world models**: building agents that can perceive, reason, predict, and act in physical or simulated environments. I am especially interested in how multimodal foundation models can acquire predictive representations of the world and use them for long-horizon planning, interaction, and reliable decision making.
+
+Before my Ph.D., I worked as an Algorithm Engineer at **[Baidu](https://www.baidu.com)** on **multimodal large language model post-training**, including SFT, RLHF, RLVR, and OPD for mathematical and visual reasoning. I received my M.S. in Computer Science from **[Tianjin University](https://www.tju.edu.cn)** in 2025 and my B.S. from **[Zhengzhou University](https://www.zzu.edu.cn)** in 2022. I was also a Research Intern at **Duxiaoman Finance** in 2025, working on applied intelligent systems.
 
 ## Research Interests
 
 <div class="research-areas">
   <div class="research-area">
-    <strong>Multimodal LLM Post-training</strong>
-    <span>SFT, RLHF, RLVR, OPD, reasoning alignment, and reward optimization.</span>
+    <strong>Embodied Intelligence</strong>
+    <span>Perception-action learning, embodied reasoning, instruction following, and autonomous agents.</span>
   </div>
   <div class="research-area">
-    <strong>Graph Machine Learning</strong>
-    <span>Graph neural networks, graph contrastive learning, heterophily, and anomaly detection.</span>
+    <strong>World Models</strong>
+    <span>Predictive representations, simulation, planning, and long-horizon decision making.</span>
   </div>
   <div class="research-area">
-    <strong>Data Mining and Retrieval</strong>
-    <span>Cross-modal alignment, knowledge graph-enhanced RAG, and reliable intelligent systems.</span>
+    <strong>Multimodal Foundation Models</strong>
+    <span>Post-training, alignment, multimodal reasoning, and agentic AI systems.</span>
   </div>
 </div>
 
-## Collaborators
+## Advisors & Collaborators
 
-I am grateful to collaborate with outstanding researchers, including [Prof. Lu Lin](https://louise-lulin.github.io/) at Penn State and [Prof. Ruijie Wang](https://wjerry5.github.io/) at UIUC.
+I will be advised by [Prof. Chenyang Si](https://chenyangsi.top/) and [Prof. Liang Wang](https://people.ucas.ac.cn/~wangliang) at PRLab, Nanjing University. I am also grateful to collaborate with outstanding researchers, including [Prof. Lu Lin](https://louise-lulin.github.io/) at Penn State and [Prof. Ruijie Wang](https://wjerry5.github.io/) at UIUC.

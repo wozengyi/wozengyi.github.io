@@ -6,6 +6,11 @@ nav: true
 nav_order: 3
 ---
 
+## 2026
+
+- **Jun 2026**: I will join **Nanjing University PRLab** as an incoming Ph.D. student, advised by **Prof. Chenyang Si** and **Prof. Liang Wang**.
+- **Apr 2026**: One paper accepted to **SIGIR 2026**!
+
 ## 2025
 
 - **Dec 2025**: One paper accepted to **AAAI 2026** (Oral)!
