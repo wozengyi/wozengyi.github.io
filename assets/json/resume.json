@@ -5,7 +5,7 @@
     "image": "",
     "email": "wozengyi1999@tju.edu.cn",
     "url": "https://wozengyi.github.io",
-    "summary": "Incoming Ph.D. student at Nanjing University PRLab, focusing on embodied intelligence, world models, and multimodal foundation models.",
+    "summary": "Incoming Ph.D. student at Nanjing University PRLab, focusing on Embodied AI, world models, and multimodal foundation models.",
     "location": {
       "city": "Nanjing / Beijing",
       "countryCode": "CN",
@@ -49,7 +49,7 @@
       "institution": "Nanjing University, Pattern Recognition Laboratory (PRLab)",
       "location": "Nanjing, China",
       "url": "https://prlab-nju.com/",
-      "area": "Embodied Intelligence, World Models, Multimodal Foundation Models",
+      "area": "Embodied AI, World Models, Multimodal Foundation Models",
       "studyType": "Incoming Ph.D. Student",
       "startDate": "",
       "endDate": "",
@@ -130,7 +130,7 @@
       "name": "Research",
       "level": "",
       "icon": "fa-solid fa-magnifying-glass",
-      "keywords": ["Embodied Intelligence", "World Models", "Multimodal Foundation Models", "Graph Machine Learning"]
+      "keywords": ["Embodied AI", "World Models", "Multimodal Foundation Models", "Graph Machine Learning"]
     },
     {
       "name": "LLM Post-training",

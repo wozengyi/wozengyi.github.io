@@ -16,7 +16,7 @@
       year: Incoming
       description:
         - Advisors: Prof. Chenyang Si and Prof. Liang Wang.
-        - Research interests: embodied intelligence, world models, and multimodal foundation models.
+        - Research interests: Embodied AI, world models, and multimodal foundation models.
     - title: M.S. in Computer Science
       institution: Tianjin University, China
       year: 2025
@@ -61,12 +61,12 @@
 - title: Research Interests
   type: nested_list
   contents:
-    - title: Embodied Intelligence
+    - title: Embodied AI
       items:
-        - Perception-action learning, embodied reasoning, instruction following, and autonomous agents.
+        - Physical interaction, manipulation, navigation, planning, embodied reasoning, and autonomous agents.
     - title: World Models
       items:
-        - Predictive representations, simulation, planning, and long-horizon decision making.
+        - Predictive simulation, physical dynamics, causal structure, world action models, and decision making.
     - title: Multimodal Foundation Models
       items:
         - Post-training, alignment, multimodal reasoning, and agentic AI systems.
