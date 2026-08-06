@@ -76,7 +76,7 @@ academic_services:
 ## 学生合作者
 
 <div class="student-collaborators">
-  <p>我很高兴与有热情的学生合作者一起推进 VLM agents、post-training、图学习和 Embodied AI 相关研究，包括研究想法讨论、实验设计、论文写作和开源项目。</p>
+  <p>我很高兴与有热情的学生合作者一起推进 VLM Agents、post-training、图学习和 Embodied AI 相关研究，包括研究想法讨论、实验设计、论文写作和开源项目。</p>
   <div class="student-group">
     <span>VLM Agents</span>
     <strong>张世俞</strong>
