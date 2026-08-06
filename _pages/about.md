@@ -66,3 +66,25 @@ Before my Ph.D., I worked as an Algorithm Engineer at **[Baidu](https://www.baid
 ## Advisors & Collaborators
 
 I will be advised by [Prof. Chenyang Si](https://chenyangsi.top/) and [Prof. Liang Wang](https://people.ucas.ac.cn/~wangliang) at PRLab, Nanjing University. I am also grateful to collaborate with outstanding researchers, including [Prof. Lu Lin](https://louise-lulin.github.io/) at Penn State and [Prof. Ruijie Wang](https://wjerry5.github.io/) at UIUC.
+
+## Student Collaborators
+
+<div class="student-collaborators">
+  <p>I am fortunate to work with motivated student collaborators on topics around VLM agents, post-training, graph learning, and Embodied AI. I especially enjoy hands-on collaboration on research ideas, experiments, paper writing, and open-source projects.</p>
+  <div class="student-group">
+    <span>VLM Agents</span>
+    <strong>Shiyu Zhang</strong>
+  </div>
+  <div class="student-group">
+    <span>Post-training</span>
+    <strong>Xin Deng · Jingchen Hao · Xuexin Liu · Siyao Qiao</strong>
+  </div>
+  <div class="student-group">
+    <span>Graph Learning</span>
+    <strong>Yuhang Liu · Yunlong Li · Bing Hao</strong>
+  </div>
+  <div class="student-note">
+    <strong>Interested in working together?</strong>
+    <span>Students who are interested in related directions are welcome to reach out by email.</span>
+  </div>
+</div>

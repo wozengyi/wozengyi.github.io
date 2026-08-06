@@ -72,3 +72,25 @@ academic_services:
 ## 导师与合作者
 
 我将在南京大学 PRLab 跟随 [司晨阳教授](https://chenyangsi.top/) 和 [王亮教授](https://people.ucas.ac.cn/~wangliang) 开展博士研究。同时，我也很荣幸与多位优秀研究者合作，包括 Penn State 的 [Lu Lin 教授](https://louise-lulin.github.io/) 和 UIUC 的 [Ruijie Wang 教授](https://wjerry5.github.io/)。
+
+## 学生合作者
+
+<div class="student-collaborators">
+  <p>我很高兴与有热情的学生合作者一起推进 VLM agents、post-training、图学习和 Embodied AI 相关研究，包括研究想法讨论、实验设计、论文写作和开源项目。</p>
+  <div class="student-group">
+    <span>VLM Agents</span>
+    <strong>张世俞</strong>
+  </div>
+  <div class="student-group">
+    <span>Post-training</span>
+    <strong>邓馨 · 郝京晨 · 刘学鑫 · 乔嗣尧</strong>
+  </div>
+  <div class="student-group">
+    <span>图学习</span>
+    <strong>刘禹杭 · 李云龙 · 郝冰</strong>
+  </div>
+  <div class="student-note">
+    <strong>欢迎一起合作</strong>
+    <span>如果你对相关方向感兴趣，欢迎通过邮箱联系我。</span>
+  </div>
+</div>
