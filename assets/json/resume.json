@@ -5,7 +5,7 @@
     "image": "",
     "email": "wozengyi1999@tju.edu.cn",
     "url": "https://wozengyi.github.io",
-    "summary": "Incoming Ph.D. student at Nanjing University PRLab, focusing on Embodied AI, world models, and multimodal foundation models.",
+    "summary": "Incoming Ph.D. student at Nanjing University PRLab, focusing on VLM agents, post-training, and Embodied AI.",
     "location": {
       "city": "Nanjing / Beijing",
       "countryCode": "CN",
@@ -49,7 +49,7 @@
       "institution": "Nanjing University, Pattern Recognition Laboratory (PRLab)",
       "location": "Nanjing, China",
       "url": "https://prlab-nju.com/",
-      "area": "Embodied AI, World Models, Multimodal Foundation Models",
+      "area": "VLM Agents, Post-training, Embodied AI",
       "studyType": "Incoming Ph.D. Student",
       "startDate": "",
       "endDate": "",
@@ -104,11 +104,39 @@
   ],
   "publications": [
     {
+      "name": "Unsupervised Graph Representation Learning with Complementary View Alignment",
+      "publisher": "arXiv 2026",
+      "releaseDate": "2026-07-01",
+      "url": "https://arxiv.org/abs/2607.24338",
+      "summary": "Preprint."
+    },
+    {
+      "name": "Learning Noise-Resilient and Transferable Graph-Text Alignment via Dynamic Quality Assessment",
+      "publisher": "SIGIR 2026",
+      "releaseDate": "2026-04-01",
+      "url": "https://doi.org/10.1145/3805712.3809579",
+      "summary": "Oral Presentation."
+    },
+    {
+      "name": "LLMTM: Benchmarking and Optimizing LLMs for Temporal Motif Analysis in Dynamic Graphs",
+      "publisher": "AAAI 2026",
+      "releaseDate": "2025-12-01",
+      "url": "https://doi.org/10.1609/aaai.v40i13.33595",
+      "summary": "Oral Presentation."
+    },
+    {
       "name": "Local Homophily-Aware Graph Neural Network with Adaptive Polynomial Filters for Scalable Graph Anomaly Detection",
       "publisher": "KDD 2025",
       "releaseDate": "2025-01-01",
       "url": "https://dl.acm.org/doi/10.1145/3711896.3737031",
       "summary": "Oral Presentation."
+    },
+    {
+      "name": "Mining Denoising Complementarity and Consistent Consensus for Unsupervised Multi-view Graph Clustering",
+      "publisher": "DASFAA 2025",
+      "releaseDate": "2025-05-01",
+      "url": "https://doi.org/10.1007/978-981-96-1247-8_10",
+      "summary": ""
     },
     {
       "name": "Leveraging Personalized PageRank and Higher-Order Topological Structures for Heterophily Mitigation in Graph Neural Networks",
@@ -130,7 +158,7 @@
       "name": "Research",
       "level": "",
       "icon": "fa-solid fa-magnifying-glass",
-      "keywords": ["Embodied AI", "World Models", "Multimodal Foundation Models", "Graph Machine Learning"]
+      "keywords": ["VLM Agents", "Post-training", "Embodied AI", "Graph Machine Learning"]
     },
     {
       "name": "LLM Post-training",
@@ -141,14 +169,19 @@
   ],
   "interests": [
     {
-      "name": "Embodied AI",
+      "name": "VLM Agents",
       "icon": "fa-solid fa-robot",
-      "keywords": ["Perception-action learning", "Embodied reasoning", "Autonomous agents"]
+      "keywords": ["Multimodal perception", "Tool use", "Planning", "Grounded decision making"]
     },
     {
-      "name": "World Models",
-      "icon": "fa-solid fa-globe",
-      "keywords": ["Predictive representations", "Simulation", "Planning"]
+      "name": "Post-training",
+      "icon": "fa-solid fa-wand-magic-sparkles",
+      "keywords": ["SFT", "RLHF", "RLVR", "Alignment", "Reward modeling"]
+    },
+    {
+      "name": "Embodied AI",
+      "icon": "fa-solid fa-person-walking",
+      "keywords": ["Physical interaction", "Manipulation", "Navigation", "Embodied reasoning"]
     }
   ],
   "references": [

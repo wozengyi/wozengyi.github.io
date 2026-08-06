@@ -3,12 +3,12 @@ layout: page
 title: News
 permalink: /news/
 nav: true
-nav_order: 3
+nav_order: 4
 ---
 
 ## 2026
 
-- **Jun 2026**: I will join **Nanjing University PRLab** as an incoming Ph.D. student, advised by **Prof. Chenyang Si** and **Prof. Liang Wang**. My Ph.D. research will focus on **Embodied AI** and **world models**.
+- **Jun 2026**: I will join **Nanjing University PRLab** as an incoming Ph.D. student, advised by **Prof. Chenyang Si** and **Prof. Liang Wang**. My Ph.D. research will focus on **VLM agents**, **post-training**, and **Embodied AI**.
 - **Apr 2026**: One paper accepted to **SIGIR 2026**!
 
 ## 2025
