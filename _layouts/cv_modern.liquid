@@ -4,6 +4,238 @@ layout: default
 
 {% assign resume = site.data.resume %}
 
+<style>
+  .modern-cv {
+    max-width: 880px !important;
+    padding-top: 1.25rem !important;
+  }
+
+  .modern-cv .cv-hero {
+    border-bottom: 1px solid var(--global-divider-color);
+    margin-bottom: 1.2rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  .modern-cv .hero-kicker {
+    font-size: 0.72rem !important;
+    margin-bottom: 0.45rem !important;
+  }
+
+  .modern-cv .cv-hero .post-title {
+    font-size: 2.55rem !important;
+    line-height: 1.08 !important;
+    margin-bottom: 0.35rem !important;
+  }
+
+  .modern-cv .cv-hero .desc {
+    font-size: 0.96rem !important;
+    line-height: 1.45 !important;
+    margin-bottom: 0.55rem !important;
+  }
+
+  .modern-cv .cv-contact {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 0.4rem !important;
+  }
+
+  .modern-cv .cv-contact a {
+    border: 1px solid rgba(140, 29, 24, 0.18) !important;
+    border-radius: 999px !important;
+    color: var(--global-theme-color) !important;
+    font-size: 0.78rem !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+    padding: 0.28rem 0.58rem !important;
+    text-decoration: none !important;
+  }
+
+  .modern-cv .cv-section {
+    border-bottom: 1px solid rgba(104, 112, 118, 0.18) !important;
+    padding: 1.05rem 0 1.15rem !important;
+  }
+
+  .modern-cv .cv-section > h2,
+  .modern-cv .cv-two-col h2 {
+    border: 0 !important;
+    color: var(--global-text-color) !important;
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1.15rem !important;
+    line-height: 1.2 !important;
+    margin: 0 0 0.72rem !important;
+    padding: 0 !important;
+  }
+
+  .modern-cv .cv-summary {
+    padding-top: 0 !important;
+  }
+
+  .modern-cv .cv-summary p {
+    font-size: 0.92rem !important;
+    line-height: 1.62 !important;
+    margin-bottom: 0.55rem !important;
+    max-width: 760px !important;
+  }
+
+  .modern-cv .cv-timeline,
+  .modern-cv .cv-publications {
+    display: grid !important;
+    gap: 0.78rem !important;
+  }
+
+  .modern-cv .cv-entry,
+  .modern-cv .cv-publication {
+    display: grid !important;
+    gap: 1rem !important;
+    grid-template-columns: 6.9rem minmax(0, 1fr) !important;
+  }
+
+  .modern-cv .cv-date,
+  .modern-cv .cv-venue {
+    color: var(--global-theme-color) !important;
+    font-size: 0.72rem !important;
+    font-weight: 800 !important;
+    line-height: 1.4 !important;
+    padding-top: 0.12rem !important;
+    text-transform: uppercase !important;
+  }
+
+  .modern-cv .cv-body h3,
+  .modern-cv .cv-pub-body h3 {
+    color: var(--global-text-color) !important;
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    line-height: 1.35 !important;
+    margin: 0 0 0.12rem !important;
+  }
+
+  .modern-cv .cv-body h3 a,
+  .modern-cv .cv-pub-body h3 a {
+    color: inherit !important;
+    text-decoration: none !important;
+  }
+
+  .modern-cv .cv-body h3 a:hover,
+  .modern-cv .cv-pub-body h3 a:hover {
+    color: var(--global-theme-color) !important;
+    text-decoration: underline !important;
+  }
+
+  .modern-cv .cv-body p,
+  .modern-cv .cv-pub-body p {
+    color: var(--global-text-color-light) !important;
+    font-size: 0.88rem !important;
+    line-height: 1.5 !important;
+    margin: 0.12rem 0 0 !important;
+  }
+
+  .modern-cv .cv-role {
+    color: var(--global-text-color) !important;
+    font-weight: 650 !important;
+  }
+
+  .modern-cv .cv-meta {
+    font-size: 0.83rem !important;
+  }
+
+  .modern-cv .cv-body ul {
+    color: var(--global-text-color-light) !important;
+    font-size: 0.86rem !important;
+    margin: 0.28rem 0 0 !important;
+    padding-left: 1rem !important;
+  }
+
+  .modern-cv .cv-tags {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 0.34rem !important;
+  }
+
+  .modern-cv .cv-tags span {
+    background: rgba(140, 29, 24, 0.07) !important;
+    border: 1px solid rgba(140, 29, 24, 0.16) !important;
+    border-radius: 999px !important;
+    color: var(--global-theme-color) !important;
+    font-size: 0.72rem !important;
+    font-weight: 750 !important;
+    line-height: 1.2 !important;
+    padding: 0.24rem 0.5rem !important;
+  }
+
+  .modern-cv .cv-tags-subtle {
+    margin-top: 0.36rem !important;
+  }
+
+  .modern-cv .cv-tags-subtle span {
+    background: transparent !important;
+    border-color: rgba(104, 112, 118, 0.22) !important;
+    color: var(--global-text-color-light) !important;
+  }
+
+  .modern-cv .cv-two-col {
+    border-bottom: 0 !important;
+    display: grid !important;
+    gap: 1.8rem !important;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) !important;
+  }
+
+  .modern-cv .cv-plain-list {
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .modern-cv .cv-plain-list li {
+    align-items: baseline !important;
+    border-bottom: 1px solid rgba(104, 112, 118, 0.15) !important;
+    display: grid !important;
+    gap: 0.65rem !important;
+    grid-template-columns: minmax(0, 1fr) auto !important;
+    line-height: 1.45 !important;
+    padding: 0.36rem 0 !important;
+  }
+
+  .modern-cv .cv-plain-list span {
+    font-size: 0.88rem !important;
+  }
+
+  .modern-cv .cv-plain-list em {
+    color: var(--global-text-color-light) !important;
+    font-size: 0.74rem !important;
+    font-style: normal !important;
+    font-weight: 800 !important;
+  }
+
+  .modern-cv .cv-skill + .cv-skill {
+    margin-top: 0.75rem !important;
+  }
+
+  .modern-cv .cv-skill strong {
+    display: block !important;
+    font-family: Georgia, "Times New Roman", Times, serif !important;
+    font-size: 0.95rem !important;
+    margin-bottom: 0.16rem !important;
+  }
+
+  @media (max-width: 767px) {
+    .modern-cv {
+      padding-top: 0.85rem !important;
+    }
+
+    .modern-cv .cv-hero .post-title {
+      font-size: 2.2rem !important;
+    }
+
+    .modern-cv .cv-entry,
+    .modern-cv .cv-publication,
+    .modern-cv .cv-two-col {
+      gap: 0.3rem !important;
+      grid-template-columns: 1fr !important;
+    }
+  }
+</style>
+
 <div class="post modern-cv">
   <header class="post-header cv-hero">
     <p class="hero-kicker">Curriculum Vitae</p>
