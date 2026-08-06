@@ -29,6 +29,7 @@
       "name": "Baidu",
       "position": "Algorithm Engineer",
       "url": "https://www.baidu.com",
+      "displayDate": "2025 - Present",
       "startDate": "2025-01-01",
       "endDate": "",
       "summary": "Multimodal large language model post-training for mathematical and visual reasoning.",
@@ -38,6 +39,7 @@
       "name": "Duxiaoman Finance",
       "position": "Research Intern",
       "url": "https://www.duxiaoman.com",
+      "displayDate": "2025",
       "startDate": "2025-01-01",
       "endDate": "2025-12-31",
       "summary": "Applied intelligent systems.",
@@ -51,6 +53,7 @@
       "url": "https://prlab-nju.com/",
       "area": "VLM Agents, Post-training, Embodied AI",
       "studyType": "Incoming Ph.D. Student",
+      "displayDate": "2026 -",
       "startDate": "",
       "endDate": "",
       "courses": ["Advisors: Prof. Chenyang Si and Prof. Liang Wang"]
@@ -61,6 +64,7 @@
       "url": "https://www.tju.edu.cn",
       "area": "Computer Science",
       "studyType": "M.S.",
+      "displayDate": "2022 - 2025",
       "startDate": "",
       "endDate": "2025-01-01",
       "courses": []
@@ -71,6 +75,7 @@
       "url": "https://www.zzu.edu.cn",
       "area": "",
       "studyType": "B.S.",
+      "displayDate": "2018 - 2022",
       "startDate": "",
       "endDate": "2022-01-01",
       "courses": []

@@ -1642,6 +1642,221 @@ body.fixed-top-nav .container[role="main"] {
   }
 }
 
+.modern-cv {
+  max-width: 900px;
+
+  .cv-hero {
+    border-bottom: 1px solid var(--global-divider-color);
+    margin-bottom: 1.55rem;
+    padding-bottom: 1.35rem;
+
+    .post-title {
+      margin-bottom: 0.35rem;
+    }
+
+    .desc {
+      margin-bottom: 0.75rem;
+      max-width: 720px;
+    }
+  }
+
+  .cv-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.85rem;
+
+    a {
+      color: var(--global-theme-color);
+      font-size: 0.88rem;
+      font-weight: 600;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .cv-section {
+    border-bottom: 1px solid rgba(104, 112, 118, 0.18);
+    padding: 1.35rem 0 1.45rem;
+
+    > h2,
+    .cv-two-col h2 {
+      border: 0;
+      color: var(--global-text-color);
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 1.22rem;
+      line-height: 1.2;
+      margin: 0 0 0.85rem;
+      padding: 0;
+    }
+  }
+
+  .cv-summary {
+    padding-top: 0;
+
+    p {
+      color: var(--global-text-color);
+      font-size: 1rem;
+      margin-bottom: 0.65rem;
+      max-width: 760px;
+    }
+  }
+
+  .cv-timeline {
+    display: grid;
+    gap: 0.95rem;
+  }
+
+  .cv-entry {
+    display: grid;
+    gap: 1.1rem;
+    grid-template-columns: 7.4rem minmax(0, 1fr);
+  }
+
+  .cv-date,
+  .cv-venue {
+    color: var(--global-theme-color);
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1.45;
+    padding-top: 0.18rem;
+    text-transform: uppercase;
+  }
+
+  .cv-body,
+  .cv-pub-body {
+    min-width: 0;
+
+    h3 {
+      color: var(--global-text-color);
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 1.02rem;
+      font-weight: 700;
+      line-height: 1.35;
+      margin: 0 0 0.16rem;
+
+      a {
+        color: inherit;
+        text-decoration: none;
+
+        &:hover {
+          color: var(--global-theme-color);
+          text-decoration: underline;
+        }
+      }
+    }
+
+    p {
+      color: var(--global-text-color-light);
+      font-size: 0.91rem;
+      line-height: 1.55;
+      margin: 0.18rem 0 0;
+    }
+
+    ul {
+      color: var(--global-text-color-light);
+      font-size: 0.9rem;
+      margin: 0.35rem 0 0;
+      padding-left: 1.05rem;
+    }
+  }
+
+  .cv-role {
+    color: var(--global-text-color) !important;
+    font-weight: 600;
+  }
+
+  .cv-meta {
+    font-size: 0.86rem !important;
+  }
+
+  .cv-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.38rem;
+
+    span {
+      background: rgba(140, 29, 24, 0.07);
+      border: 1px solid rgba(140, 29, 24, 0.15);
+      border-radius: 999px;
+      color: var(--global-theme-color);
+      font-size: 0.74rem;
+      font-weight: 700;
+      line-height: 1.2;
+      padding: 0.28rem 0.55rem;
+    }
+  }
+
+  .cv-tags-subtle {
+    margin-top: 0.45rem;
+
+    span {
+      background: transparent;
+      border-color: rgba(104, 112, 118, 0.22);
+      color: var(--global-text-color-light);
+      font-weight: 600;
+    }
+  }
+
+  .cv-publications {
+    display: grid;
+    gap: 0.85rem;
+  }
+
+  .cv-publication {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 7.4rem minmax(0, 1fr);
+  }
+
+  .cv-two-col {
+    border-bottom: 0;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  }
+
+  .cv-plain-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      align-items: baseline;
+      border-bottom: 1px solid rgba(104, 112, 118, 0.15);
+      display: grid;
+      gap: 0.8rem;
+      grid-template-columns: minmax(0, 1fr) auto;
+      padding: 0.42rem 0;
+
+      span {
+        font-size: 0.92rem;
+      }
+
+      em {
+        color: var(--global-text-color-light);
+        font-size: 0.78rem;
+        font-style: normal;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .cv-skill + .cv-skill {
+    margin-top: 0.8rem;
+  }
+
+  .cv-skill strong {
+    display: block;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 0.98rem;
+    margin-bottom: 0.15rem;
+  }
+}
+
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
   letter-spacing: 0;
@@ -1737,6 +1952,24 @@ footer.fixed-bottom {
 
     .abbr {
       max-width: 7rem;
+    }
+  }
+
+  .modern-cv {
+    .cv-entry,
+    .cv-publication,
+    .cv-two-col {
+      gap: 0.35rem;
+      grid-template-columns: 1fr;
+    }
+
+    .cv-date,
+    .cv-venue {
+      padding-top: 0;
+    }
+
+    .cv-section {
+      padding: 1.15rem 0 1.25rem;
     }
   }
 }

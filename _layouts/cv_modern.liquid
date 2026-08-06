@@ -1,0 +1,120 @@
+---
+layout: default
+---
+
+{% assign resume = site.data.resume %}
+
+<div class="post modern-cv">
+  <header class="post-header cv-hero">
+    <p class="hero-kicker">Curriculum Vitae</p>
+    <h1 class="post-title">{{ resume.basics.name | default: page.title }}</h1>
+    <p class="desc">{{ resume.basics.label }}</p>
+    <div class="cv-contact">
+      <a href="mailto:{{ resume.basics.email }}">{{ resume.basics.email }}</a>
+      <a href="{{ resume.basics.url }}" target="_blank" rel="noopener noreferrer">{{ resume.basics.url }}</a>
+      {% for profile in resume.basics.profiles %}
+        <a href="{{ profile.url }}" target="_blank" rel="noopener noreferrer">{{ profile.network }}</a>
+      {% endfor %}
+    </div>
+  </header>
+
+  <article>
+    <section class="cv-section cv-summary">
+      <h2>Research Focus</h2>
+      <p>{{ resume.basics.summary }}</p>
+      <div class="cv-tags">
+        {% for interest in resume.interests %}
+          <span>{{ interest.name }}</span>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="cv-section">
+      <h2>Education</h2>
+      <div class="cv-timeline">
+        {% for item in resume.education %}
+          <div class="cv-entry">
+            <div class="cv-date">{{ item.displayDate }}</div>
+            <div class="cv-body">
+              <h3><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.institution }}</a></h3>
+              <p class="cv-role">{{ item.studyType }}{% if item.area and item.area != '' %}, {{ item.area }}{% endif %}</p>
+              {% if item.location %}<p class="cv-meta">{{ item.location }}</p>{% endif %}
+              {% if item.courses and item.courses.size > 0 %}
+                <ul>
+                  {% for course in item.courses %}
+                    <li>{{ course }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="cv-section">
+      <h2>Experience</h2>
+      <div class="cv-timeline">
+        {% for item in resume.work %}
+          <div class="cv-entry">
+            <div class="cv-date">{{ item.displayDate }}</div>
+            <div class="cv-body">
+              <h3><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a></h3>
+              <p class="cv-role">{{ item.position }}</p>
+              <p>{{ item.summary }}</p>
+              {% if item.highlights and item.highlights.size > 0 %}
+                <div class="cv-tags cv-tags-subtle">
+                  {% for highlight in item.highlights %}
+                    <span>{{ highlight }}</span>
+                  {% endfor %}
+                </div>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="cv-section">
+      <h2>Selected Publications</h2>
+      <div class="cv-publications">
+        {% for item in resume.publications %}
+          <div class="cv-publication">
+            <div class="cv-venue">{{ item.publisher }}</div>
+            <div class="cv-pub-body">
+              <h3><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a></h3>
+              {% if item.summary and item.summary != '' %}<p>{{ item.summary }}</p>{% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section class="cv-section cv-two-col">
+      <div>
+        <h2>Honors</h2>
+        <ul class="cv-plain-list">
+          {% for item in resume.awards %}
+            <li>
+              <span>{{ item.title }}</span>
+              <em>{{ item.date | slice: 0, 4 }}</em>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div>
+        <h2>Skills</h2>
+        {% for skill in resume.skills %}
+          <div class="cv-skill">
+            <strong>{{ skill.name }}</strong>
+            <div class="cv-tags cv-tags-subtle">
+              {% for keyword in skill.keywords %}
+                <span>{{ keyword }}</span>
+              {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+  </article>
+</div>
