@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Joining NJU PRLab as an Incoming Ph.D. Student'
+zh_title: '即将加入南京大学 PRLab 攻读博士'
 date: 2026-06-14
 ---
 
