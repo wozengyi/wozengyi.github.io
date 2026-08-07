@@ -87,7 +87,7 @@ academic_services:
   </div>
   <div class="student-group">
     <span>图学习</span>
-    <strong>刘禹杭 · 李云龙 · 郝冰</strong>
+    <strong>刘禹杭 · 褚云龙 · 郝冰</strong>
   </div>
   <div class="student-note">
     <strong>欢迎一起合作</strong>

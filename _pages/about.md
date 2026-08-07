@@ -81,7 +81,7 @@ I will be advised by [Prof. Chenyang Si](https://chenyangsi.top/) and [Prof. Lia
   </div>
   <div class="student-group">
     <span>Graph Learning</span>
-    <strong>Yuhang Liu · Yunlong Li · Bing Hao</strong>
+    <strong>Yuhang Liu · Yunlong Chu · Bing Hao</strong>
   </div>
   <div class="student-note">
     <strong>Interested in working together?</strong>
