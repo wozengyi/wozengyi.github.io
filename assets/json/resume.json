@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Zengyi Wo",
-    "label": "Incoming Ph.D. Student at Nanjing University PRLab",
+    "label": "Joint Ph.D. Student at Nanjing University & CASIA · PRLab",
     "image": "",
     "email": "wozengyi1999@tju.edu.cn",
     "url": "https://wozengyi.github.io",
-    "summary": "Incoming Ph.D. student at Nanjing University PRLab, focusing on VLM agents, post-training, and Embodied AI.",
+    "summary": "Joint Ph.D. student at Nanjing University and the Institute of Automation, Chinese Academy of Sciences (CASIA), affiliated with PRLab and focusing on VLM agents, post-training, and Embodied AI.",
     "location": {
       "city": "Nanjing / Beijing",
       "countryCode": "CN",
@@ -48,11 +48,11 @@
   ],
   "education": [
     {
-      "institution": "Nanjing University, Pattern Recognition Laboratory (PRLab)",
+      "institution": "Nanjing University, Pattern Recognition Laboratory (PRLab) & Institute of Automation, CASIA",
       "location": "Nanjing, China",
       "url": "https://prlab-nju.com/",
       "area": "VLM Agents, Post-training, Embodied AI",
-      "studyType": "Incoming Ph.D. Student",
+      "studyType": "Joint Ph.D. Student",
       "displayDate": "2026 -",
       "startDate": "",
       "endDate": "",

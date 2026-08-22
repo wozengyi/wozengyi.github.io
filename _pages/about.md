@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Incoming Ph.D. Student, <a href='https://www.nju.edu.cn/'>Nanjing University</a> · <a href='https://prlab-nju.com/'>PRLab</a>
+subtitle: Joint Ph.D. Student, <a href='https://www.nju.edu.cn/'>Nanjing University</a> &amp; CASIA · <a href='https://prlab-nju.com/'>PRLab</a>
 
 profile:
   align: right
@@ -10,7 +10,7 @@ profile:
   image_circular: false
   more_info: >
     <p><span>Location</span> Nanjing / Beijing, China</p>
-    <p><span>Current</span> Incoming Ph.D., NJU PRLab</p>
+    <p><span>Current</span> Joint Ph.D., NJU &amp; CASIA · PRLab</p>
     <p><span>Focus</span> VLM Agents · Post-training</p>
     <p><span>Before</span> Algorithm Engineer, Baidu</p>
 
@@ -32,7 +32,7 @@ academic_services:
 
 ## Biography
 
-I am an incoming Ph.D. student at **[Nanjing University](https://www.nju.edu.cn/)**, joining the **[Pattern Recognition Laboratory (PRLab)](https://prlab-nju.com/)**. I will be advised by **[Prof. Chenyang Si](https://chenyangsi.top/)** and **[Prof. Liang Wang](https://people.ucas.ac.cn/~wangliang)**.
+I am a joint Ph.D. student at **[Nanjing University](https://www.nju.edu.cn/)** and the **Institute of Automation, Chinese Academy of Sciences (CASIA)**, affiliated with the **[Pattern Recognition Laboratory (PRLab)](https://prlab-nju.com/)**. I am advised by **[Prof. Chenyang Si](https://chenyangsi.top/)** and **[Prof. Liang Wang](https://people.ucas.ac.cn/~wangliang)**.
 
 My research connects **VLM agents** and **post-training** with **Embodied AI**: improving multimodal foundation models for reasoning, tool use, and planning, then grounding these capabilities in embodied systems for manipulation, navigation, and long-horizon decision making.
 
@@ -65,7 +65,7 @@ Before my Ph.D., I worked as an Algorithm Engineer at **[Baidu](https://www.baid
 
 ## Advisors & Collaborators
 
-I will be advised by [Prof. Chenyang Si](https://chenyangsi.top/) and [Prof. Liang Wang](https://people.ucas.ac.cn/~wangliang) at PRLab, Nanjing University. I am also grateful to collaborate with outstanding researchers, including [Prof. Lu Lin](https://louise-lulin.github.io/) at Penn State and [Prof. Ruijie Wang](https://wjerry5.github.io/) at UIUC.
+I am affiliated with PRLab at Nanjing University and jointly trained with the Institute of Automation, Chinese Academy of Sciences (CASIA). I am advised by [Prof. Chenyang Si](https://chenyangsi.top/) and [Prof. Liang Wang](https://people.ucas.ac.cn/~wangliang). I am also grateful to collaborate with outstanding researchers, including [Prof. Lu Lin](https://louise-lulin.github.io/) at Penn State and [Prof. Ruijie Wang](https://wjerry5.github.io/) at UIUC.
 
 ## Student Collaborators
 

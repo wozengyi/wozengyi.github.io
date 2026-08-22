@@ -8,7 +8,7 @@ nav_order: 4
 
 ## 2026
 
-- **Jun 2026**: I will join **Nanjing University PRLab** as an incoming Ph.D. student, advised by **Prof. Chenyang Si** and **Prof. Liang Wang**. My Ph.D. research will focus on **VLM agents**, **post-training**, and **Embodied AI**.
+- **Jun 2026**: I am a joint Ph.D. student at **Nanjing University** and the **Institute of Automation, Chinese Academy of Sciences (CASIA)**, affiliated with **PRLab** and advised by **Prof. Chenyang Si** and **Prof. Liang Wang**. My Ph.D. research will focus on **VLM agents**, **post-training**, and **Embodied AI**.
 - **Apr 2026**: One paper accepted to **SIGIR 2026**!
 
 ## 2025

@@ -11,12 +11,12 @@
 - title: Education
   type: time_table
   contents:
-    - title: Incoming Ph.D. Student
-      institution: Nanjing University, Pattern Recognition Laboratory (PRLab), China
-      year: Incoming
+    - title: Joint Ph.D. Student
+      institution: Nanjing University PRLab and Institute of Automation, Chinese Academy of Sciences (CASIA), China
+      year: 2026 -
       description:
         - Advisors: Prof. Chenyang Si and Prof. Liang Wang.
-        - Research interests: Embodied AI, world models, and multimodal foundation models.
+        - Research interests: VLM agents, post-training, and Embodied AI.
     - title: M.S. in Computer Science
       institution: Tianjin University, China
       year: 2025
@@ -64,9 +64,9 @@
     - title: Embodied AI
       items:
         - Physical interaction, manipulation, navigation, planning, embodied reasoning, and autonomous agents.
-    - title: World Models
+    - title: Post-training
       items:
-        - Predictive simulation, physical dynamics, causal structure, world action models, and decision making.
+        - SFT, RLHF, RLVR, alignment, reward modeling, and multimodal reasoning for stronger foundation-model agents.
     - title: Multimodal Foundation Models
       items:
         - Post-training, alignment, multimodal reasoning, and agentic AI systems.
