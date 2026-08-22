@@ -6,17 +6,34 @@ nav: true
 nav_order: 4
 ---
 
-## 2026
+<div class="news-page-list">
+  <div class="news-page-year">2026</div>
+  <article class="news-page-item">
+    <time class="news-page-date">Jun 2026</time>
+    <div class="news-page-copy">I am a joint Ph.D. student at <strong>Nanjing University</strong> and the <strong>Institute of Automation, Chinese Academy of Sciences (CASIA)</strong>, affiliated with <strong>PRLab</strong> and advised by <strong>Prof. Chenyang Si</strong> and <strong>Prof. Liang Wang</strong>. My Ph.D. research will focus on <strong>VLM agents</strong>, <strong>post-training</strong>, and <strong>Embodied AI</strong>.</div>
+  </article>
+  <article class="news-page-item">
+    <time class="news-page-date">Apr 2026</time>
+    <div class="news-page-copy">One paper accepted to <strong>SIGIR 2026</strong>!</div>
+  </article>
 
-- **Jun 2026**: I am a joint Ph.D. student at **Nanjing University** and the **Institute of Automation, Chinese Academy of Sciences (CASIA)**, affiliated with **PRLab** and advised by **Prof. Chenyang Si** and **Prof. Liang Wang**. My Ph.D. research will focus on **VLM agents**, **post-training**, and **Embodied AI**.
-- **Apr 2026**: One paper accepted to **SIGIR 2026**!
+  <div class="news-page-year">2025</div>
+  <article class="news-page-item">
+    <time class="news-page-date">Dec 2025</time>
+    <div class="news-page-copy">One paper accepted to <strong>AAAI 2026</strong> (Oral)!</div>
+  </article>
+  <article class="news-page-item">
+    <time class="news-page-date">May 2025</time>
+    <div class="news-page-copy">One paper accepted to <strong>IJCAI 2025</strong>!</div>
+  </article>
+  <article class="news-page-item">
+    <time class="news-page-date">May 2025</time>
+    <div class="news-page-copy">One paper accepted to <strong>KDD 2025</strong> (Oral)!</div>
+  </article>
 
-## 2025
-
-- **Dec 2025**: One paper accepted to **AAAI 2026** (Oral)!
-- **May 2025**: One paper accepted to **IJCAI 2025**!
-- **May 2025**: One paper accepted to **KDD 2025** (Oral)!
-
-## 2024
-
-- **Jan 2024**: One paper accepted to **WWW 2024** (Oral)!
+  <div class="news-page-year">2024</div>
+  <article class="news-page-item">
+    <time class="news-page-date">Jan 2024</time>
+    <div class="news-page-copy">One paper accepted to <strong>WWW 2024</strong> (Oral)!</div>
+  </article>
+</div>

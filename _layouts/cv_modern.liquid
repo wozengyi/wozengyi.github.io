@@ -6,14 +6,25 @@ layout: default
 
 <style>
   .modern-cv {
-    max-width: 880px !important;
-    padding-top: 1.25rem !important;
+    max-width: 900px !important;
+    padding-top: 1.05rem !important;
   }
 
   .modern-cv .cv-hero {
     border-bottom: 1px solid var(--global-divider-color);
-    margin-bottom: 1.2rem !important;
-    padding-bottom: 1rem !important;
+    margin-bottom: 1.35rem !important;
+    padding: 1rem 0 1.2rem !important;
+    position: relative !important;
+  }
+
+  .modern-cv .cv-hero::after {
+    background: var(--global-theme-color) !important;
+    bottom: -1px !important;
+    content: "" !important;
+    height: 2px !important;
+    left: 0 !important;
+    position: absolute !important;
+    width: 5rem !important;
   }
 
   .modern-cv .hero-kicker {
@@ -22,7 +33,7 @@ layout: default
   }
 
   .modern-cv .cv-hero .post-title {
-    font-size: 2.55rem !important;
+    font-size: 2.65rem !important;
     line-height: 1.08 !important;
     margin-bottom: 0.35rem !important;
   }
@@ -36,7 +47,7 @@ layout: default
   .modern-cv .cv-contact {
     display: flex !important;
     flex-wrap: wrap !important;
-    gap: 0.4rem !important;
+    gap: 0.42rem !important;
   }
 
   .modern-cv .cv-contact a {
@@ -48,11 +59,21 @@ layout: default
     line-height: 1.2 !important;
     padding: 0.28rem 0.58rem !important;
     text-decoration: none !important;
+    transition:
+      background 0.18s ease,
+      border-color 0.18s ease,
+      color 0.18s ease !important;
+  }
+
+  .modern-cv .cv-contact a:hover {
+    background: var(--global-theme-color) !important;
+    border-color: var(--global-theme-color) !important;
+    color: #fff !important;
   }
 
   .modern-cv .cv-section {
     border-bottom: 1px solid rgba(104, 112, 118, 0.18) !important;
-    padding: 1.05rem 0 1.15rem !important;
+    padding: 1.18rem 0 1.28rem !important;
   }
 
   .modern-cv .cv-section > h2,
@@ -64,6 +85,16 @@ layout: default
     line-height: 1.2 !important;
     margin: 0 0 0.72rem !important;
     padding: 0 !important;
+  }
+
+  .modern-cv .cv-section > h2::before,
+  .modern-cv .cv-two-col h2::before {
+    background: var(--global-theme-color) !important;
+    content: "" !important;
+    display: inline-block !important;
+    height: 0.72rem !important;
+    margin-right: 0.48rem !important;
+    width: 0.18rem !important;
   }
 
   .modern-cv .cv-summary {
@@ -80,14 +111,18 @@ layout: default
   .modern-cv .cv-timeline,
   .modern-cv .cv-publications {
     display: grid !important;
-    gap: 0.78rem !important;
+    gap: 0.82rem !important;
   }
 
   .modern-cv .cv-entry,
   .modern-cv .cv-publication {
+    background: var(--global-card-bg-color) !important;
+    border: 1px solid rgba(104, 112, 118, 0.14) !important;
+    border-radius: 8px !important;
     display: grid !important;
     gap: 1rem !important;
     grid-template-columns: 6.9rem minmax(0, 1fr) !important;
+    padding: 0.78rem 0.86rem !important;
   }
 
   .modern-cv .cv-date,
@@ -96,7 +131,7 @@ layout: default
     font-size: 0.72rem !important;
     font-weight: 800 !important;
     line-height: 1.4 !important;
-    padding-top: 0.12rem !important;
+    padding-top: 0.04rem !important;
     text-transform: uppercase !important;
   }
 
@@ -188,12 +223,15 @@ layout: default
 
   .modern-cv .cv-plain-list li {
     align-items: baseline !important;
-    border-bottom: 1px solid rgba(104, 112, 118, 0.15) !important;
+    background: var(--global-card-bg-color) !important;
+    border: 1px solid rgba(104, 112, 118, 0.14) !important;
+    border-radius: 8px !important;
     display: grid !important;
     gap: 0.65rem !important;
     grid-template-columns: minmax(0, 1fr) auto !important;
     line-height: 1.45 !important;
-    padding: 0.36rem 0 !important;
+    margin-bottom: 0.45rem !important;
+    padding: 0.52rem 0.65rem !important;
   }
 
   .modern-cv .cv-plain-list span {
