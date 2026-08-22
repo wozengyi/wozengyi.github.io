@@ -5,7 +5,7 @@
     "image": "",
     "email": "wozengyi1999@tju.edu.cn",
     "url": "https://wozengyi.github.io",
-    "summary": "Joint Ph.D. student at Nanjing University and the Institute of Automation, Chinese Academy of Sciences (CASIA), affiliated with PRLab and focusing on VLM agents, post-training, and Embodied AI.",
+    "summary": "Joint Ph.D. student at Nanjing University and the <a href=\"http://english.ia.cas.cn/\">Institute of Automation, Chinese Academy of Sciences (CASIA)</a>, affiliated with PRLab and focusing on VLM agents, post-training, and Embodied AI.",
     "location": {
       "city": "Nanjing / Beijing",
       "countryCode": "CN",
@@ -48,7 +48,9 @@
   ],
   "education": [
     {
-      "institution": "Nanjing University, Pattern Recognition Laboratory (PRLab) & Institute of Automation, CASIA",
+      "institution": "Nanjing University, Pattern Recognition Laboratory (PRLab)",
+      "jointInstitution": "Institute of Automation, CASIA",
+      "jointUrl": "http://english.ia.cas.cn/",
       "location": "Nanjing, China",
       "url": "https://prlab-nju.com/",
       "area": "VLM Agents, Post-training, Embodied AI",

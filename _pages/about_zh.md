@@ -4,7 +4,7 @@ title: 中文
 permalink: /zh/
 lang: zh
 hero_kicker: VLM Agents · Post-training · Embodied AI
-subtitle: 南京大学与中科院自动化所联合培养博士生 · PRLab
+subtitle: 南京大学与<a href='http://www.ia.cas.cn/'>中科院自动化所</a>联合培养博士生 · PRLab
 news_heading: 新闻
 publications_heading: 代表性论文
 honors_heading: 荣誉与奖项
@@ -16,7 +16,7 @@ profile:
   image_circular: false
   more_info: >
     <p><span>地点</span> 南京 / 北京，中国</p>
-    <p><span>当前</span> 南京大学与中科院自动化所联合培养博士生 · PRLab</p>
+    <p><span>当前</span> 南京大学与<a href="http://www.ia.cas.cn/">中科院自动化所</a>联合培养博士生 · PRLab</p>
     <p><span>方向</span> VLM Agents · Post-training</p>
     <p><span>此前</span> 百度算法工程师</p>
 
@@ -38,7 +38,7 @@ academic_services:
 
 ## 个人简介
 
-我是 **[南京大学](https://www.nju.edu.cn/)** 与 **中国科学院自动化研究所** 联合培养博士生，所在实验室为 **[模式识别实验室（PRLab）](https://prlab-nju.com/)**，导师为 **[司晨阳教授](https://chenyangsi.top/)** 和 **[王亮教授](https://people.ucas.ac.cn/~wangliang)**。
+我是 **[南京大学](https://www.nju.edu.cn/)** 与 **[中国科学院自动化研究所](http://www.ia.cas.cn/)** 联合培养博士生，所在实验室为 **[模式识别实验室（PRLab）](https://prlab-nju.com/)**，导师为 **[司晨阳教授](https://chenyangsi.top/)** 和 **[王亮教授](https://people.ucas.ac.cn/~wangliang)**。
 
 我的研究关注 **VLM agents**、**post-training** 与 **Embodied AI** 的结合：通过后训练提升多模态基础模型在推理、工具使用和规划方面的能力，并进一步将这些能力落地到具身系统中的操作、导航和长程决策任务。
 
@@ -71,7 +71,7 @@ academic_services:
 
 ## 导师与合作者
 
-我隶属于南京大学 PRLab，并与中国科学院自动化研究所联合培养，跟随 [司晨阳教授](https://chenyangsi.top/) 和 [王亮教授](https://people.ucas.ac.cn/~wangliang) 开展博士研究。同时，我也很荣幸与多位优秀研究者合作，包括 Penn State 的 [Lu Lin 教授](https://louise-lulin.github.io/) 和 UIUC 的 [Ruijie Wang 教授](https://wjerry5.github.io/)。
+我隶属于南京大学 PRLab，并与[中国科学院自动化研究所](http://www.ia.cas.cn/)联合培养，跟随 [司晨阳教授](https://chenyangsi.top/) 和 [王亮教授](https://people.ucas.ac.cn/~wangliang) 开展博士研究。同时，我也很荣幸与多位优秀研究者合作，包括 Penn State 的 [Lu Lin 教授](https://louise-lulin.github.io/) 和 UIUC 的 [Ruijie Wang 教授](https://wjerry5.github.io/)。
 
 ## 学生合作者
 

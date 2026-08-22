@@ -157,6 +157,15 @@ layout: default
     text-decoration: underline !important;
   }
 
+  .modern-cv .cv-institution-joiner {
+    color: var(--global-text-color-light) !important;
+    display: inline-block !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif !important;
+    font-size: 0.86rem !important;
+    font-weight: 650 !important;
+    margin: 0 0.24rem !important;
+  }
+
   .modern-cv .cv-body p,
   .modern-cv .cv-pub-body p {
     color: var(--global-text-color-light) !important;
@@ -306,7 +315,13 @@ layout: default
           <div class="cv-entry">
             <div class="cv-date">{{ item.displayDate }}</div>
             <div class="cv-body">
-              <h3><a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.institution }}</a></h3>
+              <h3>
+                <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.institution }}</a>
+                {% if item.jointInstitution and item.jointUrl %}
+                  <span class="cv-institution-joiner">&amp;</span>
+                  <a href="{{ item.jointUrl }}" target="_blank" rel="noopener noreferrer">{{ item.jointInstitution }}</a>
+                {% endif %}
+              </h3>
               <p class="cv-role">{{ item.studyType }}{% if item.area and item.area != '' %}, {{ item.area }}{% endif %}</p>
               {% if item.location %}<p class="cv-meta">{{ item.location }}</p>{% endif %}
               {% if item.courses and item.courses.size > 0 %}
