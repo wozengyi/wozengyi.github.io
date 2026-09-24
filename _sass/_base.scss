@@ -1239,19 +1239,95 @@ body.fixed-top-nav .container[role="main"] {
 }
 
 .academic-hero {
-  border-bottom: 1px solid var(--global-divider-color);
-  padding: 1.25rem 0 1.65rem;
+  align-items: center;
+  background: linear-gradient(125deg, rgba(15, 118, 110, 0.055), transparent 55%), var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  display: grid;
+  gap: clamp(1.5rem, 4vw, 3rem);
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 29%);
+  padding: clamp(1.4rem, 4vw, 2.6rem);
   position: relative;
 }
 
 .academic-hero::after {
   background: var(--global-theme-color);
-  bottom: -1px;
+  bottom: 0;
   content: "";
-  height: 2px;
-  left: 0;
+  height: 3px;
+  left: clamp(1.4rem, 4vw, 2.6rem);
   position: absolute;
-  width: 5.2rem;
+  width: 4.5rem;
+}
+
+.academic-hero .post-title {
+  font-size: clamp(2.8rem, 5vw, 4rem);
+}
+
+.hero-summary {
+  color: var(--global-text-color);
+  font-size: 1.12rem;
+  line-height: 1.6;
+  margin: 1.3rem 0 1.5rem;
+  max-width: 38rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+
+  a {
+    align-items: center;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 999px;
+    color: var(--global-text-color);
+    display: inline-flex;
+    font-size: 0.88rem;
+    font-weight: 700;
+    justify-content: center;
+    min-height: 2.6rem;
+    padding: 0.45rem 1.05rem;
+    text-decoration: none;
+    transition: background-color 0.18s ease, border-color 0.18s ease;
+
+    &:hover,
+    &:focus-visible {
+      border-color: var(--global-theme-color);
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+
+  .hero-action-primary {
+    background: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    color: var(--global-bg-color);
+
+    &:hover,
+    &:focus-visible {
+      background: var(--global-hover-color);
+      border-color: var(--global-hover-color);
+      color: var(--global-bg-color);
+    }
+  }
+}
+
+.academic-hero .hero-profile {
+  margin: 0;
+  padding: 0.45rem;
+  width: 100%;
+
+  figure {
+    margin: 0;
+  }
+
+  img {
+    aspect-ratio: 5 / 6;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+  }
 }
 
 .hero-kicker {
@@ -2065,6 +2141,21 @@ footer.fixed-bottom {
     .desc {
       font-size: 0.96rem;
     }
+  }
+
+  .academic-hero {
+    gap: 1.25rem;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .academic-hero .hero-profile {
+    max-width: 290px;
+    width: min(100%, 290px);
+  }
+
+  .hero-summary {
+    font-size: 1rem;
+    margin: 1rem 0 1.2rem;
   }
 
   .profile.float-right,

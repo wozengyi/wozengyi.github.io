@@ -5,20 +5,20 @@ permalink: /zh/
 lang: zh
 hero_kicker: VLM Agents · Post-training · Embodied AI
 subtitle: 南京大学与<a href='http://www.ia.cas.cn/'>中科院自动化所</a>联合培养博士生 · PRLab
+hero_summary: 我研究如何通过后训练提升视觉语言智能体的推理、工具使用与具身行动能力。
+hero_actions_label: 快速入口
+hero_publications_label: 代表性论文
+hero_cv_label: 学术简历
+hero_email_label: 邮件联系
 news_heading: 新闻
 publications_heading: 代表性论文
 honors_heading: 荣誉与奖项
 services_heading: 学术服务
 
 profile:
-  align: right
-  image: wzy.jpg
+  image: wzy-portrait.jpg
+  image_alt: Zengyi Wo 站在庭院廊亭中
   image_circular: false
-  more_info: >
-    <p><span>地点</span> 南京 / 北京，中国</p>
-    <p><span>当前</span> 南京大学与<a href="http://www.ia.cas.cn/">中科院自动化所</a>联合培养博士生 · PRLab</p>
-    <p><span>方向</span> VLM Agents · Post-training</p>
-    <p><span>此前</span> 百度算法工程师</p>
 
 news: true
 selected_papers: true
