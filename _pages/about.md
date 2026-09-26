@@ -3,16 +3,12 @@ layout: about
 title: Home
 permalink: /
 subtitle: Joint Ph.D. Student, <a href='https://www.nju.edu.cn/'>Nanjing University</a> &amp; <a href='http://english.ia.cas.cn/'>CASIA</a> · <a href='https://prlab-nju.com/'>PRLab</a>
+hero_summary: I study how post-training helps vision-language agents reason, use tools, and act in the physical world.
 
 profile:
-  align: right
-  image: wzy.jpg
+  image: wzy-portrait.jpg
+  image_alt: Zengyi Wo standing in a garden pavilion
   image_circular: false
-  more_info: >
-    <p><span>Location</span> Nanjing / Beijing, China</p>
-    <p><span>Current</span> Joint Ph.D., NJU &amp; <a href="http://english.ia.cas.cn/">CASIA</a> · PRLab</p>
-    <p><span>Focus</span> VLM Agents · Post-training</p>
-    <p><span>Before</span> Algorithm Engineer, Baidu</p>
 
 news: true
 selected_papers: true

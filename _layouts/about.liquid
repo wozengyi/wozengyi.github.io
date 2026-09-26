@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="post">
   <header class="post-header academic-hero">
-    <div>
+    <div class="hero-copy">
       <p class="hero-kicker">{{ page.hero_kicker | default: 'VLM Agents · Post-training · Embodied AI' }}</p>
       <h1 class="post-title">
         {% if site.title == 'blank' %}
@@ -14,12 +14,15 @@ layout: default
         {% endif %}
       </h1>
       <p class="desc">{{ page.subtitle }}</p>
+      {% if page.hero_summary %}<p class="hero-summary">{{ page.hero_summary }}</p>{% endif %}
+      <nav class="hero-actions" aria-label="{{ page.hero_actions_label | default: 'Quick links' }}">
+        <a class="hero-action-primary" href="{{ '/publications/' | relative_url }}">{{ page.hero_publications_label | default: 'Publications' }}</a>
+        <a href="{{ '/cv/' | relative_url }}">{{ page.hero_cv_label | default: 'CV' }}</a>
+        <a href="mailto:{{ site.email }}">{{ page.hero_email_label | default: 'Email me' }}</a>
+      </nav>
     </div>
-  </header>
-
-  <article>
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      <div class="profile hero-profile">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
@@ -27,19 +30,17 @@ layout: default
           {% else %}
             {% assign profile_image_class = 'img-fluid z-depth-1' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
+          {% capture sizes %}(min-width: 768px) 290px, (min-width: 576px) 40vw, 80vw{% endcapture %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image_alt
             cache_bust=true
           %}
         {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
       </div>
     {% endif %}
+  </header>
 
+  <article>
     <div class="clearfix">{{ content }}</div>
 
     <!-- News -->
